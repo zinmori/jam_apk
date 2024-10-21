@@ -36,7 +36,7 @@ function App() {
             setTimeout(() => {
               setIsDownloading(false);
               setIsDownloaded(true);
-            }, 2000);
+            }, 5000);
           }}
         >
           {isDownloading ? (
