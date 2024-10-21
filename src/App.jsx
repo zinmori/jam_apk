@@ -21,7 +21,7 @@ function App() {
       {isDownloaded && (
         <div className="mt-4 text-green-600 text-lg font-semibold flex flex-row items-center gap-2">
           <img src="/check.png" alt="" className="w-6" />
-          Download complete !
+          Download started !
         </div>
       )}
 
